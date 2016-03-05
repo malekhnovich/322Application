@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -8,41 +9,44 @@
 
 <script src="https://github.com/dmcquay/node-apac.git"></script>
 <link rel="stylesheet"type="text/css"href="www/css/pictures.css">
-<title>Match Page</title>
+
+
+
+
 <head>
-    <script src="js/searchAmazon.js"></script>
-    <header><h3><center> Matches </center></h3><div align="right">Sort</div></header>
+
+    <meta charset="UTF-8">
+    <title>Give Page</title>
+
 </head>
-
-
 <body>
-<ul id="matches" data-role="listview" data-split-icon="gear" data-split-theme="a" data-inset="true">
 
+
+
+<ul id="matched" data-role="listview" data-split-icon="gear" data-split-theme="a" data-inset="true">
+    <header><h3><center> Give </center></h3></header>
     <li><a href="#">
-        <p>YOU GET</p>
         <h2>Eloquent Javascript:A Modern Introduction to Programming</h2>
-        <p>IF YOU GIVE</p>
-        <h2>Cognitive Science: An Introduction</h2></a>
+        <p> by: Marjin Haverbeke</p>
+        <p>ISBN-10: 1593275846</p></a>
         <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book</a>
     </li>
-    <li href="#"><a href="#">
-        <p>YOU GET</p>
+    <li><a href="#">
+
         <h2>Murach's PHP and MySQL</h2>
-        <p>IF YOU GIVE</p>
-        <h2>Cognitive Science: An Introduction</h2>
+        <p> by: Joel Murach</p>
+        <p>ISBN-10: 1890774790</p>
     </a>
         <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book</a>
     </li>
     <li><a href="#">
-        <p>YOU GET</p>
+
         <h2>System Analysis & Design</h2>
-        <p>IF YOU GIVE</p>
-        <h2>Eloquent Javascript:A Modern Introduction to Programming</h2></a>
+        <p>Alan Dennis</p>
+        <p>ISBN-10: 1118037421</p></a>
         <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book</a>
     </li>
 </ul>
-
-
 
 
 <footer>
@@ -50,9 +54,9 @@
         <h4 style="text-align:center;">Footer</h4>
         <div class="menu" data-role="navbar">
             <ul>
-                <li><a href><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-icon-top ui-btn-active ui-icon-myiconMatches">Matches</button></a></li>
+                <li><a href="MatchScreen.html"><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-icon-top ui-icon-myiconMatches">Matches</button></a></li>
                 <li><a href="GetScreen.html"><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-icon-top  ui-icon-myiconGet">Get</button></a></li>
-                <li><a href="GiveScreen.html"><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-icon-top  ui-icon-myiconGive">Give</button></a></li>
+                <li><a href=""><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-icon-top ui-btn-active ui-icon-myiconGive">Give</button></a></li>
                 <li><a href="SettingsScreen.html"><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-icon-top  ui-icon-myiconSettings">Settings</button></a></li>
 
             </ul>
@@ -61,4 +65,7 @@
     </div>
 </footer>
 </body>
+
+
+
 </html>
