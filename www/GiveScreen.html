@@ -6,7 +6,11 @@
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.2.39.min.js"></script>
 <script src="img"></script>
 <script src="css"></script>
-
+<script>
+    $(function(){
+        $("#footerContent").load("footer.html");
+    });
+</script>
 <script src="https://github.com/dmcquay/node-apac.git"></script>
 <link rel="stylesheet"type="text/css"href="www/css/pictures.css">
 
@@ -48,22 +52,9 @@
     </li>
 </ul>
 
+<div id="footerContent"></div>
 
-<footer>
-    <div data-role="footer"style="overflow:hidden;">
-        <h4 style="text-align:center;">Footer</h4>
-        <div class="menu" data-role="navbar">
-            <ul>
-                <li><a href="MatchScreen.html"><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-icon-top ui-icon-myiconMatches">Matches</button></a></li>
-                <li><a href="GetScreen.html"><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-icon-top  ui-icon-myiconGet">Get</button></a></li>
-                <li><a href=""><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-icon-top ui-btn-active ui-icon-myiconGive">Give</button></a></li>
-                <li><a href="SettingsScreen.html"><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-icon-top  ui-icon-myiconSettings">Settings</button></a></li>
 
-            </ul>
-        </div>
-
-    </div>
-</footer>
 </body>
 
 
