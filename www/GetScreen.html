@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.2.39.min.js"></script>
 <script src="img"></script>
 <script src="css"></script>
-
+<script src="css/index.css"></script>
+<script src="jquery.js"></script>
 <script src="https://github.com/dmcquay/node-apac.git"></script>
+<script>
+    $(function(){
+        $("#footerContent").load("./getfooter.html");
+    });
+</script>
 <link rel="stylesheet"type="text/css"href="www/css/pictures.css">
 <title>Get Page</title>
 <head>
-<script src="js/searchAmazon.js"></script>
+
 <header><h3><center>Get </center></h3></header>
 </head>
 <p>
@@ -43,34 +49,56 @@
 
 
 </script>
-    </p>
-    <ul data-role="listview" data-split-icon="gear" data-split-theme="a" data-inset="true">
-    <li><a href="#">
+    <!--begin default page!-->
+    <section id="default"class-="default" data-role="page">
+
+        <header data-role="header"><h3><center>Get </center>
+
+            <div style="color:green" align="right">Add</div>
+        </h3>
+        </header>
+        <p><a href="#secondPage">to see second page</a></p>
+
+<article>
+    <p></p>
+    <h1><center>No books yet!</center></h1>
+    <h2 style="color:gray">Books that you would like to get will appear here</h2>
+</article>
+    </section>
+
+    <section id="secondPage"><ul data-role="listview" data-split-icon="gear" data-split-theme="a" data-inset="true">
+        <head>
+
+            <header data-role="header"><h3><center>Get </center></h3></header>
+        </head>
+        <li><a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book
         <img src="http://ecx.images-amazon.com/images/I/51pLAgSXOzL._AC_UL320_SR242,320_.jpg">
         <h2>Eloquent Javascript:A Modern Introduction to Programming</h2>
         <p>Marjin Haverbeke</p>
         <p>ISBN-10: 1593275846</p>
-        <p align="right">1 match</p></a>
-        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book</a>
+        <p align="right">1 match</p>
+        </a>
     </li>
-    <li><a href="#">
+    <li>
+        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book
         <img src="http://ecx.images-amazon.com/images/I/51hihVmYI1L.jpg">
         <h2>Murach's PHP and MySQL</h2>
         <p>Joel Murach</p>
         <p>ISBN-10: 1890774790</p>
         <p align="right" color="grey">2 matches</p>
         </a>
-        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book</a>
     </li>
-    <li><a href="#">
+    <li>
+        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book
         <img src="http://media.wiley.com/product_data/coverImage300/47/EHEP0020/EHEP002047.jpg">
         <h2>System Analysis & Design</h2>
         <p>Alan Dennis</p>
         <p>ISBN-10: 1118037421</p>
-        <p align="right">2 matches</p></a>
-        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book</a>
+        <p align="right">2 matches</p>
+        </a>
     </li>
 </ul>
+
 <div data-role="popup" id="purchase" data-theme="a" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
     <h3>Acquire Book?</h3>
     <p>Your download will begin immediately on your mobile device when you purchase.</p>
@@ -78,22 +106,23 @@
     <a href="index.html" data-rel="back" class="ui-shadow ui-btn ui-corner-all ui-btn-inline ui-mini">Cancel</a>
 </div>
 
-<footer>
-    <div data-role="footer"style="overflow:hidden;">
+<!--<div id="footerContent"></div>!-->
+<footer data-role="footer"style="overflow:hidden;">
+
         <h4 style="text-align:center;">Footer</h4>
         <div class="menu" data-role="navbar">
             <ul>
-                <li><a href="MatchScreen.html"><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-icon-top ui-icon-myiconMatches">Matches</button></a></li>
-                <li><a href=""><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-icon-top ui-btn-active ui-icon-myiconGet">Get</button></a></li>
-                <li><a href="GiveScreen.html"><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-icon-top  ui-icon-myiconGive">Give</button></a></li>
-                <li><a href="SettingsScreen.html"><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-icon-top  ui-icon-myiconSettings">Settings</button></a></li>
+                <li><a href="./MatchScreen.html"><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-icon-top  ui-icon-myiconMatches">Matches</button></a></li>
+                <li><a href=><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-icon-top ui-btn-active  ui-icon-myiconGet">Get</button></a></li>
+                <li><a href="./GiveScreen.html"><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all  ui-btn-icon-top  ui-icon-myiconGive">Give</button></a></li>
+                <li><a href="./SettingsScreen.html"><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-icon-top  ui-icon-myiconSettings">Settings</button></a></li>
 
             </ul>
-        </div>
 
-    </div>
+        <section id="getDetail">
+            <h1 align="left"style="color:green">Get</h1>
+        </section>
+
 </footer>
-
-
-
+    </section>
 </html>
