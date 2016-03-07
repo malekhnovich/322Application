@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0457ebf-d258-432b-97be-2fbf2ab85160" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/camera.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/footers/getfooter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/footers/givefooter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/footers/settingfooter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/camera.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/footer.html" afterPath="$PROJECT_DIR$/www/footers/matchfooter.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/GetScreen.html" afterPath="$PROJECT_DIR$/www/GetScreen.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/GiveScreen.html" afterPath="$PROJECT_DIR$/www/GiveScreen.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/MatchScreen.html" afterPath="$PROJECT_DIR$/www/MatchScreen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/SettingsScreen.html" afterPath="$PROJECT_DIR$/www/SettingsScreen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/index.css" afterPath="$PROJECT_DIR$/www/css/index.css" />
     </list>
     <ignored path="untitled14.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,46 +20,20 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DockManager">
-    <window id="10">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="GetScreen.html" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/www/GetScreen.html">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.09174312">
-                    <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
-                    <folding>
-                      <element signature="n#style#0;n#div#0;n#h3#0;n#header#0;n#section#0;n#p#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#h2#0;n#article#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#div#0;n#section#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#footer#0;n#section#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#h4#0;n#footer#0;n#section#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#h1#0;n#section#0;n#div#0;n#footer#0;n#section#0;n#html#0;n#!!top" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="untitled14" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MatchScreen.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MatchScreen.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/MatchScreen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48018292">
-              <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+            <state vertical-scroll-proportion="-20.458334">
+              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#header#0;n#head#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,6 +61,59 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.7777777">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/spec/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-26.407408">
+              <caret line="56" column="46" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="46" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GiveScreen.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/GiveScreen.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3597561">
+              <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#h3#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#1;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#footer#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetScreen.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/GetScreen.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.583333">
+              <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#h3#0;n#header#0;n#section#0;n#p#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#article#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#section#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#footer#0;n#section#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -108,6 +126,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="max" />
+        <option value="Max" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -132,11 +156,11 @@
         <option value="$PROJECT_DIR$/www/SettingsScreen.html" />
         <option value="$PROJECT_DIR$/www/footers/givefooter.html" />
         <option value="$PROJECT_DIR$/www/css/index.css" />
-        <option value="$PROJECT_DIR$/www/GiveScreen.html" />
         <option value="$PROJECT_DIR$/www/css/camera.css" />
         <option value="$PROJECT_DIR$/www/js/camera.js" />
-        <option value="$PROJECT_DIR$/www/GetScreen.html" />
         <option value="$PROJECT_DIR$/www/MatchScreen.html" />
+        <option value="$PROJECT_DIR$/www/GetScreen.html" />
+        <option value="$PROJECT_DIR$/www/GiveScreen.html" />
       </list>
     </option>
   </component>
@@ -146,8 +170,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-17" />
-    <option name="y" value="59" />
+    <option name="x" value="144" />
+    <option name="y" value="49" />
     <option name="width" value="803" />
     <option name="height" value="777" />
   </component>
@@ -224,7 +248,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -385,11 +409,17 @@
       <option name="project" value="LOCAL" />
       <updated>1457185248067</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changed buttons">
+      <created>1457371050129</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1457371050129</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-17" y="59" width="803" height="777" extended-state="0" />
+    <frame x="144" y="49" width="803" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -428,23 +458,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="improved" />
     <MESSAGE value="organizing code" />
-    <option name="LAST_COMMIT_MESSAGE" value="organizing code" />
+    <MESSAGE value="changed buttons" />
+    <MESSAGE value="added your footer, will insert your images shortly" />
+    <option name="LAST_COMMIT_MESSAGE" value="added your footer, will insert your images shortly" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/MatchScreen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#header#0;n#head#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -459,6 +481,7 @@
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#header#0;n#head#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -477,6 +500,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#header#0;n#head#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -538,9 +562,7 @@
             <element signature="n#style#0;n#div#0;n#h3#0;n#header#0;n#section#0;n#p#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#article#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#section#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#footer#0;n#section#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#footer#0;n#section#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#section#0;n#div#0;n#footer#0;n#section#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#section#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -610,9 +632,7 @@
             <element signature="n#style#0;n#div#0;n#h3#0;n#header#0;n#section#0;n#p#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#article#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#section#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#footer#0;n#section#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#footer#0;n#section#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#section#0;n#div#0;n#footer#0;n#section#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#section#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -679,16 +699,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -822,21 +832,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/GiveScreen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5963303">
-          <caret line="70" column="54" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#h3#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#1;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/css/camera.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.875">
@@ -855,27 +850,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.7777777">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/spec/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.407408">
+          <caret line="56" column="46" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="46" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/MatchScreen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48018292">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+        <state vertical-scroll-proportion="-20.458334">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#div#0;n#header#0;n#head#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/GetScreen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09174312">
-          <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
+        <state vertical-scroll-proportion="-8.583333">
+          <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#div#0;n#h3#0;n#header#0;n#section#0;n#p#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#article#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#section#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#footer#0;n#section#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#footer#0;n#section#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#section#0;n#div#0;n#footer#0;n#section#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#section#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/GiveScreen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3597561">
+          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#h3#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#1;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

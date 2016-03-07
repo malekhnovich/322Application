@@ -6,6 +6,7 @@
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.2.39.min.js"></script>
 <script src="img"></script>
 <script src="css"></script>
+<script src="GetScreen.html"></script>
 <script>
     $(function(){
         $("#givefooterContent").load("footers/givefooter.html");
@@ -44,26 +45,27 @@
 <section id="giveSecond">
 <ul id="matched" data-role="listview" data-split-icon="gear" data-split-theme="a" data-inset="true">
     <header><h3><center> Give </center></h3></header>
-    <li><a href="#">
+    <li><a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book
         <h2>Eloquent Javascript:A Modern Introduction to Programming</h2>
         <p> by: Marjin Haverbeke</p>
         <p>ISBN-10: 1593275846</p></a>
-        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book</a>
+        </a>
     </li>
-    <li><a href="#">
-
+    <li>
+        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book
         <h2>Murach's PHP and MySQL</h2>
         <p> by: Joel Murach</p>
         <p>ISBN-10: 1890774790</p>
     </a>
-        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book</a>
-    </li>
-    <li><a href="#">
 
+    </li>
+    <li>
+        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book
         <h2>System Analysis & Design</h2>
         <p>Alan Dennis</p>
-        <p>ISBN-10: 1118037421</p></a>
-        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book</a>
+        <p>ISBN-10: 1118037421</p>
+        </a>
+
     </li>
 </ul>
     <!--give detail page !-->
@@ -73,20 +75,18 @@
 <!--
 <div id="footerContent"></div>
 !-->
-<div data-role="footer"style="overflow:hidden;">
-    <h4 style="text-align:center;">Footer</h4>
-    <div class="menu" data-role="navbar">
-        <ul>
-            <li><a href="MatchScreen.html"><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-icon-top  ui-icon-myiconMatches">Matches</button></a></li>
-            <li><a href="GetScreen.html"><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-icon-top  ui-icon-myiconGet">Get</button></a></li>
-            <li><a href=><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-active ui-btn-icon-top  ui-icon-myiconGive">Give</button></a></li>
-            <li><a href="SettingsScreen.html"><button class="ui-btn ui-nodisc-icon ui-shadow ui-corner-all ui-btn-icon-top  ui-icon-myiconSettings">Settings</button></a></li>
-
-        </ul>
-    </div>
-
-</div>
-</footer>
+    <footer>
+        			<div data-role="footer" data-position="fixed" style="overflow:hidden;">
+        				<div data-role="navbar" data-iconpos="top">
+        					<ul>
+        						<li><a href="MatchScreen.html"  data-icon="img/matches.svg">Matches</a></li>
+        						<li><a href="GetScreen.html" data-icon="img/get.svg">Get</a></li>
+        						<li><a href="#"class="ui-btn-active" data-icon="img/give.svg">Give</a></li>
+        						<li><a href="#" data-icon="img/settings.svg">Settings</a></li>
+        					</ul>
+        				</div>
+        			</div>
+        		</footer>
 </section>
 </body>
 
