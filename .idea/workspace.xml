@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0457ebf-d258-432b-97be-2fbf2ab85160" name="Default" comment="added your footer, will insert your images shortly">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="d0457ebf-d258-432b-97be-2fbf2ab85160" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/MatchScreen.html" afterPath="$PROJECT_DIR$/www/MatchScreen.html" />
     </list>
     <ignored path="untitled14.iws" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="MatchScreen.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/MatchScreen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.1560283">
-              <caret line="89" column="38" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.6028369">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#header#0;n#head#0;n#html#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
@@ -101,8 +100,8 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
-              <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
+            <state vertical-scroll-proportion="-5.625">
+              <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -544,7 +543,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457372084002</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added your footer, will insert your images shortly">
+      <created>1457373877855</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1457373877855</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -969,8 +974,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
-          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -991,8 +996,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/MatchScreen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.1560283">
-          <caret line="89" column="38" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.6028369">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#div#0;n#header#0;n#head#0;n#html#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
