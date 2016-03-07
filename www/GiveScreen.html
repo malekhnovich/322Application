@@ -28,7 +28,7 @@
 <body>
 <section id="giveDefault"class="giveDefault"data-role="page">
     <header><h3><center> Give </center>
-    <div style="color:green"align="right">Add</div>
+    <a href="#addPageGive" style="color:green"align="right">Add</a>
     </h3>
     </header>
     <p><a href="#giveSecond">To see second page</a></p>
@@ -43,13 +43,19 @@
 
 </article>
 </section>
+<section id="addPageGive">
+    <header data-role="header" style="color:green"><center>Add</center></header>
+    <p>Add page contents here</p>
+</section>
+</section>
 <section id="giveSecond">
 <ul id="matched" data-role="listview" data-split-icon="gear" data-split-theme="a" data-inset="true">
     <header><h3><center> Give </center></h3></header>
     <li><a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book
         <h2>Eloquent Javascript:A Modern Introduction to Programming</h2>
         <p> by: Marjin Haverbeke</p>
-        <p>ISBN-10: 1593275846</p></a>
+        <p>ISBN-10: 1593275846</p>
+        <span class="ui-li-count">2</span>
         </a>
     </li>
     <li>
@@ -57,6 +63,7 @@
         <h2>Murach's PHP and MySQL</h2>
         <p> by: Joel Murach</p>
         <p>ISBN-10: 1890774790</p>
+            <span class="ui-li-count">2</span>
     </a>
 
     </li>
@@ -65,6 +72,7 @@
         <h2>System Analysis & Design</h2>
         <p>Alan Dennis</p>
         <p>ISBN-10: 1118037421</p>
+            <span class="ui-li-count">2</span>
         </a>
 
     </li>
@@ -82,8 +90,8 @@
         					<ul>
         						<li><a href="MatchScreen.html"  data-icon="img/matches.svg">Matches</a></li>
         						<li><a href="GetScreen.html" data-icon="img/get.svg">Get</a></li>
-        						<li><a href="#"class="ui-btn-active" data-icon="img/give.svg">Give</a></li>
-        						<li><a href="#" data-icon="img/settings.svg">Settings</a></li>
+        						<li><a href="GiveScreen.html"class="ui-btn-active" data-icon="img/give.svg">Give</a></li>
+        						<li><a href="SettingsScreen.html" data-icon="img/settings.svg">Settings</a></li>
         					</ul>
         				</div>
         			</div>
