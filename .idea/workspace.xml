@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0457ebf-d258-432b-97be-2fbf2ab85160" name="Default" comment="added your footer, will insert your images shortly">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/takePics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/GetScreen.html" afterPath="$PROJECT_DIR$/www/GetScreen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/GiveScreen.html" afterPath="$PROJECT_DIR$/www/GiveScreen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/takePics.html" afterPath="$PROJECT_DIR$/www/takePics.html" />
     </list>
     <ignored path="untitled14.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,9 +69,12 @@
       <file leaf-file-name="takePics.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/takePics.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2347561">
-              <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
-              <folding />
+            <state vertical-scroll-proportion="0.9542683">
+              <caret line="99" column="7" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -816,10 +816,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
           <folding>
-            <marker date="1457468903000" expanded="true" signature="47864:47881" placeholder="..." />
-            <marker date="1457468903000" expanded="true" signature="47864:47899" placeholder="..." />
-            <marker date="1457468903000" expanded="true" signature="47864:47912" placeholder="..." />
-            <marker date="1457468903000" expanded="true" signature="47864:47927" placeholder="..." />
+            <marker date="1457469292000" expanded="true" signature="47942:47959" placeholder="..." />
+            <marker date="1457469292000" expanded="true" signature="47942:47977" placeholder="..." />
+            <marker date="1457469292000" expanded="true" signature="47942:47990" placeholder="..." />
+            <marker date="1457469292000" expanded="true" signature="47942:48005" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -887,9 +887,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/takePics.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2347561">
-          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
-          <folding />
+        <state vertical-scroll-proportion="0.9542683">
+          <caret line="99" column="7" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
