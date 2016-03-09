@@ -1,58 +1,72 @@
-<!DOCTYPE html>
-<!--
-    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+<html lang="en">
+<html lang="en">
 
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
-<html>
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.2.39.min.js"></script>
 <script src="img"></script>
 <script src="css"></script>
-
+<script>
+    $(function(){
+        $("#footerContent").load("matchfooter.html");
+    });
+</script>
 <script src="https://github.com/dmcquay/node-apac.git"></script>
 <link rel="stylesheet"type="text/css"href="www/css/pictures.css">
-    <head>
 
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
-    </head>
-    <body>
-        <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
+<title>Matches Page</title>
+
+<head>
+    <header><h3><center> Matches </center></h3><div style="color:green" align="right">Sort</div></header>
+</head>
+
+
+<body>
+<!--
+Match Screen
+!-->
+<ul id="matches" data-role="listview" data-split-icon="gear" data-split-theme="a" data-inset="true">
+
+    <li><a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book
+        <p>YOU GET</p>
+        <h2>Eloquent Javascript:A Modern Introduction to Programming</h2>
+        <p>IF YOU GIVE</p>
+        <h2>Cognitive Science: An Introduction</h2></a>
+        </a>
+    </li>
+    <li><a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book
+        <p>YOU GET</p>
+        <h2>Murach's PHP and MySQL</h2>
+        <p>IF YOU GIVE</p>
+        <h2>Cognitive Science: An Introduction</h2>
+
+        </a>
+    </li>
+    <li><a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book
+        <p>YOU GET</p>
+        <h2>System Analysis & Design</h2>
+        <p>IF YOU GIVE</p>
+        <h2>Eloquent Javascript:A Modern Introduction to Programming</h2>
+        </a>
+    </li>
+</ul>
+<div id="footerContent"></div>
+<footer>
+    <div data-role="footer" data-position="fixed" style="overflow:hidden;">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li><a href="MatchScreen.html" class="ui-btn-active" data-icon="img/matches.svg">Matches</a></li>
+                <li><a href="GetScreen.html" data-icon="img/get.svg">Get</a></li>
+                <li><a href="GiveScreen.html" data-icon="img/give.svg">Give</a></li>
+                <li><a href="SettingsScreen.html" data-icon="img/settings.svg">Settings</a></li>
+            </ul>
         </div>
-        <script type="text/javascript" src="js/aws-sdk.min.js"></script>
-        <script type="text/javascript" src="js/aws-sdk-mobile-analytics.min.js"></script>
-        <script type="text/javascript" src='cordova.js'></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
-    </body>
+    </div>
+</footer>
+
+
+
+</body>
 </html>
+
