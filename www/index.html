@@ -1,72 +1,209 @@
+<!DOCTYPE html>
 <html lang="en">
-<html lang="en">
-
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-<script src="https://sdk.amazonaws.com/js/aws-sdk-2.2.39.min.js"></script>
-<script src="img"></script>
-<script src="css"></script>
-<script>
-    $(function(){
-        $("#footerContent").load("matchfooter.html");
-    });
-</script>
-<script src="https://github.com/dmcquay/node-apac.git"></script>
-<link rel="stylesheet"type="text/css"href="www/css/pictures.css">
-
-<title>Matches Page</title>
-
-<head>
-    <header><h3><center> Matches </center></h3><div style="color:green" align="right">Sort</div></header>
-</head>
-
-
-<body>
-<!--
-Match Screen
-!-->
-<ul id="matches" data-role="listview" data-split-icon="gear" data-split-theme="a" data-inset="true">
-
-    <li><a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book
-        <p>YOU GET</p>
-        <h2>Eloquent Javascript:A Modern Introduction to Programming</h2>
-        <p>IF YOU GIVE</p>
-        <h2>Cognitive Science: An Introduction</h2></a>
-        </a>
-    </li>
-    <li><a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book
-        <p>YOU GET</p>
-        <h2>Murach's PHP and MySQL</h2>
-        <p>IF YOU GIVE</p>
-        <h2>Cognitive Science: An Introduction</h2>
-
-        </a>
-    </li>
-    <li><a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Acquire Book
-        <p>YOU GET</p>
-        <h2>System Analysis & Design</h2>
-        <p>IF YOU GIVE</p>
-        <h2>Eloquent Javascript:A Modern Introduction to Programming</h2>
-        </a>
-    </li>
-</ul>
-<div id="footerContent"></div>
-<footer>
-    <div data-role="footer" data-position="fixed" style="overflow:hidden;">
-        <div data-role="navbar" data-iconpos="top">
-            <ul>
-                <li><a href="MatchScreen.html" class="ui-btn-active" data-icon="img/matches.svg">Matches</a></li>
-                <li><a href="GetScreen.html" data-icon="img/get.svg">Get</a></li>
-                <li><a href="GiveScreen.html" data-icon="img/give.svg">Give</a></li>
-                <li><a href="SettingsScreen.html" data-icon="img/settings.svg">Settings</a></li>
-            </ul>
-        </div>
-    </div>
-</footer>
-
-
-
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+		<link rel="stylesheet" href="css/themes/books.min.css"/>
+		<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css"/>
+		<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script>
+			$(document).bind("mobileinit", function(){
+				$.mobile.defaultPageTransition = 'none';
+			});
+    	</script>
+		<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	</head>
+	<body>
+		<section data-role="page" id="matches">
+			<header data-role="header" data-position="fixed">
+				<h1>Matches</h1>
+				<a href="#" class="ui-btn-right" data-shadow="false">Sort</a>
+			</header>
+			<ul data-role="listview" data-icon="false">
+				<li><a href="#">
+					<p>You Get</p>
+					<h2>Information Retrieval in Practice</h2>
+					<p>If You Give</p>
+					<h2>Cognitive Science: An Introduction to the Study of the Mind</h2></a>
+				</li>
+				<li><a href="#">
+					<p>You Get</p>
+					<h2>Murach's PHP and MySQL Second Edition</h2>
+					<p>If You Give</p>
+					<h2>Cognitive Science: An Introduction to the Study of the Mind</h2></a>
+				</li>
+				<li><a href="#">
+					<p>You Get</p>
+					<h2>User Experience Research</h2>
+					<p>If You Give</p>
+					<h2>About Face: The Essentials of Interaction Design</h2></a>
+				</li>
+				<li><a href="#">
+					<p>You Get</p>
+					<h2>Successful Project Management</h2>
+					<p>If You Give</p>
+					<h2>System Analysis &amp; Design</h2></a>
+				</li>
+			</ul>
+			<footer data-role="footer" data-position="fixed" style="overflow:hidden;">
+				<nav data-role="navbar" data-iconpos="top">
+					<ul>
+						<li><a href="#matches" data-icon="img/matches.svg" class="ui-btn-active ui-state-persist">Matches</a></li>
+						<li><a href="#get" data-icon="img/get.svg">Get</a></li>
+						<li><a href="#give" data-icon="img/give.svg">Give</a></li>
+						<li><a href="#setings" data-icon="img/settings.svg">Settings</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</section>
+		<section data-role="page" id="get">
+			<header data-role="header" data-position="fixed">
+				<h1>Get</h1>
+				<a href="#get-add" class="ui-btn-right" data-shadow="false">Add</a>
+			</header>
+			<ul data-role="listview" data-icon="false">
+				<li><a href="#">
+					<h2>Information Retrieval in Practice</h2>
+					<p>by Bruce Croft, Don Metzlet, and Trevor Strohe</p>
+					<p>ISBN 978-3869104567</p>
+					<p>1 match</p></a>
+				</li>
+				<li><a href="#">
+					<h2>Murach's PHP and MySQL Second Edition</h2>
+					<p>by Joel Murach and Ray Harris</p>
+					<p>ISBN 978-9164793427</p>
+					<p>6 matches</p></a>
+				</li>
+				<li><a href="#">
+					<h2>Successful Project Management</h2>
+					<p>by Jack Gido and James Clements</p>
+					<p>ISBN 978-2275591745</p>
+					<p>3 matches</p></a>
+				</li>
+			</ul>
+			<footer data-role="footer" data-position="fixed" style="overflow:hidden;">
+				<nav data-role="navbar" data-iconpos="top">
+					<ul>
+						<li><a href="#matches" data-icon="img/matches.svg">Matches</a></li>
+						<li><a href="#get" data-icon="img/get.svg" class="ui-btn-active ui-state-persist">Get</a></li>
+						<li><a href="#give" data-icon="img/give.svg">Give</a></li>
+						<li><a href="#settings" data-icon="img/settings.svg">Settings</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</section>
+		<section data-role="page" id="give">
+			<header data-role="header" data-position="fixed">
+				<h1>Give</h1>
+				<a href="#give-add" class="ui-btn-right" data-shadow="false">Add</a>
+			</header>
+			<ul data-role="listview" data-icon="false">
+				<li><a href="#">
+					<h2>Cognitive Science: An Introduction to the Study of the Mind</h2>
+					<p>by Jay Friedenberg and David Silverman</p>
+					<p>ISBN 978-1593275846</p>
+					<p>2 matches</p></a>
+				</li>
+				<li><a href="#">
+					<h2>About Face: The Essentials of Interaction Design</h2>
+					<p>by Alan Cooper, Robert Reimann, and David Cronin</p>
+					<p>ISBN 978-890774790</p>
+					<p>0 matches</p></a>
+				</li>
+				<li><a href="#">
+					<h2>System Analysis &amp; Design</h2>
+					<p>by Alan Dennis and Barbara Haley Wixom</p>
+					<p>ISBN 978-1118037421</p>
+					<p>7 matches</p></a>
+				</li>
+			</ul>
+			<footer data-role="footer" data-position="fixed" style="overflow:hidden;">
+				<nav data-role="navbar" data-iconpos="top">
+					<ul>
+						<li><a href="#matches" data-icon="img/matches.svg">Matches</a></li>
+						<li><a href="#get" data-icon="img/get.svg">Get</a></li>
+						<li><a href="#give" data-icon="img/give.svg" class="ui-btn-active ui-state-persist">Give</a></li>
+						<li><a href="#settings" data-icon="img/settings.svg">Settings</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</section>
+		<section data-role="page" id="settings">
+			<header data-role="header" data-position="fixed">
+				<h1>Settings</h1>
+			</header>
+			<ul data-role="listview" data-icon="false">
+				<li><a href="#">
+					<p>Invite Friends</p></a>
+				</li>
+				<li><a href="#">
+					<p>Sign Out</p></a>
+				</li>
+				<li><a href="#">
+					<p>Delete Account</p></a>
+				</li>
+			</ul>
+			<footer data-role="footer" data-position="fixed" style="overflow:hidden;">
+				<nav data-role="navbar" data-iconpos="top">
+					<ul>
+						<li><a href="#matches" data-icon="img/matches.svg">Matches</a></li>
+						<li><a href="#get" data-icon="img/get.svg">Get</a></li>
+						<li><a href="#give" data-icon="img/give.svg">Give</a></li>
+						<li><a href="#settings" data-icon="img/settings.svg" class="ui-btn-active ui-state-persist">Settings</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</section>
+		<section data-role="page" id="get-add">
+			<header data-role="header" data-position="fixed">
+				<input type="search" name="search" id="search-basic" value="essential mob">
+				<a href="#get" class="ui-btn-right" data-shadow="false">Cancel</a>
+			</header>
+			<ul data-role="listview" data-icon="false">
+				<li><a href="#get">
+					<h2>Essential Mobile Interaction Design</h2>
+					<p>by Cameron Banga and Josh Weinhold</p>
+					<p>ISBN 978-8306295876</p></a>
+				</li>
+			</ul>
+			<footer data-role="footer" data-position="fixed" style="overflow:hidden;">
+				<nav data-role="navbar" data-iconpos="top">
+					<ul>
+						<li><a href="#matches" data-icon="img/matches.svg">Matches</a></li>
+						<li><a href="#get" data-icon="img/get.svg" class="ui-btn-active ui-state-persist">Get</a></li>
+						<li><a href="#give" data-icon="img/give.svg">Give</a></li>
+						<li><a href="#settings" data-icon="img/settings.svg">Settings</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</section>
+		<section data-role="page" id="give-add">
+			<header data-role="header" data-position="fixed">
+				<input type="search" name="search" id="search-basic" value="user experience res">
+				<a href="#give" class="ui-btn-right" data-shadow="false">Cancel</a>
+			</header>
+			<ul data-role="listview" data-icon="false">
+				<li><a href="#give">
+					<h2>User Experience Research</h2>
+					<p>by William Stolte and Jennifer Chan</p>
+					<p>ISBN 978-1593275846</p></a>
+				</li>
+			</ul>
+			<footer data-role="footer" data-position="fixed" style="overflow:hidden;">
+				<nav data-role="navbar" data-iconpos="top">
+					<ul>
+						<li><a href="#matches" data-icon="img/matches.svg">Matches</a></li>
+						<li><a href="#get" data-icon="img/get.svg">Get</a></li>
+						<li><a href="#give" data-icon="img/give.svg" class="ui-btn-active ui-state-persist">Give</a></li>
+						<li><a href="#settings" data-icon="img/settings.svg">Settings</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</section>
+		<section data-role="page">
+		</section>
+		<section data-role="page">
+		</section>
+	</body>
 </html>
-
