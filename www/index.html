@@ -18,7 +18,7 @@
 		<section data-role="page" id="matches">
 			<header data-role="header" data-position="fixed">
 				<h1>Matches</h1>
-				<a href="#" class="ui-btn-right" data-shadow="false">Sort</a>
+				<a class="ui-btn-right">Sort</a>
 			</header>
 			<ul data-role="listview" data-icon="false">
 				<li><a href="#">
@@ -52,7 +52,7 @@
 						<li><a href="#matches" data-icon="img/matches.svg" class="ui-btn-active ui-state-persist">Matches</a></li>
 						<li><a href="#get" data-icon="img/get.svg">Get</a></li>
 						<li><a href="#give" data-icon="img/give.svg">Give</a></li>
-						<li><a href="#setings" data-icon="img/settings.svg">Settings</a></li>
+						<li><a href="#settings" data-icon="img/settings.svg">Settings</a></li>
 					</ul>
 				</nav>
 			</footer>
@@ -60,22 +60,22 @@
 		<section data-role="page" id="get">
 			<header data-role="header" data-position="fixed">
 				<h1>Get</h1>
-				<a href="#get-add" class="ui-btn-right" data-shadow="false">Add</a>
+				<a href="#get-add" class="ui-btn-right">Add</a>
 			</header>
 			<ul data-role="listview" data-icon="false">
-				<li><a href="#">
+				<li><a href="#get-detail">
 					<h2>Information Retrieval in Practice</h2>
 					<p>by Bruce Croft, Don Metzlet, and Trevor Strohe</p>
 					<p>ISBN 978-3869104567</p>
 					<p>1 match</p></a>
 				</li>
-				<li><a href="#">
+				<li><a href="#get-detail">
 					<h2>Murach's PHP and MySQL Second Edition</h2>
 					<p>by Joel Murach and Ray Harris</p>
 					<p>ISBN 978-9164793427</p>
 					<p>6 matches</p></a>
 				</li>
-				<li><a href="#">
+				<li><a href="#get-detail">
 					<h2>Successful Project Management</h2>
 					<p>by Jack Gido and James Clements</p>
 					<p>ISBN 978-2275591745</p>
@@ -96,22 +96,22 @@
 		<section data-role="page" id="give">
 			<header data-role="header" data-position="fixed">
 				<h1>Give</h1>
-				<a href="#give-add" class="ui-btn-right" data-shadow="false">Add</a>
+				<a href="#give-add" class="ui-btn-right">Add</a>
 			</header>
 			<ul data-role="listview" data-icon="false">
-				<li><a href="#">
+				<li><a href="#give-detail">
 					<h2>Cognitive Science: An Introduction to the Study of the Mind</h2>
 					<p>by Jay Friedenberg and David Silverman</p>
 					<p>ISBN 978-1593275846</p>
 					<p>2 matches</p></a>
 				</li>
-				<li><a href="#">
+				<li><a href="#give-detail">
 					<h2>About Face: The Essentials of Interaction Design</h2>
 					<p>by Alan Cooper, Robert Reimann, and David Cronin</p>
 					<p>ISBN 978-890774790</p>
 					<p>0 matches</p></a>
 				</li>
-				<li><a href="#">
+				<li><a href="#give-detail">
 					<h2>System Analysis &amp; Design</h2>
 					<p>by Alan Dennis and Barbara Haley Wixom</p>
 					<p>ISBN 978-1118037421</p>
@@ -134,14 +134,24 @@
 				<h1>Settings</h1>
 			</header>
 			<ul data-role="listview" data-icon="false">
-				<li><a href="#">
-					<p>Invite Friends</p></a>
+				<p>Notifications</p>
+				<li>
+					<p>Method</p>
+					<p>user@example.com</p>
 				</li>
-				<li><a href="#">
-					<p>Sign Out</p></a>
+				<li>
+					<p>Frequency</p>
+					<p>Immediately upon match</p>
 				</li>
-				<li><a href="#">
-					<p>Delete Account</p></a>
+				<p>Account</p>
+				<li>
+					<p>Invite Friends</p>
+				</li>
+				<li>
+					<p>Sign Out</p>
+				</li>
+				<li>
+					<p>Delete Account</p>
 				</li>
 			</ul>
 			<footer data-role="footer" data-position="fixed" style="overflow:hidden;">
@@ -158,7 +168,7 @@
 		<section data-role="page" id="get-add">
 			<header data-role="header" data-position="fixed">
 				<input type="search" name="search" id="search-basic" value="essential mob">
-				<a href="#get" class="ui-btn-right" data-shadow="false">Cancel</a>
+				<a href="#get" class="ui-btn-right">Cancel</a>
 			</header>
 			<ul data-role="listview" data-icon="false">
 				<li><a href="#get">
@@ -181,7 +191,7 @@
 		<section data-role="page" id="give-add">
 			<header data-role="header" data-position="fixed">
 				<input type="search" name="search" id="search-basic" value="user experience res">
-				<a href="#give" class="ui-btn-right" data-shadow="false">Cancel</a>
+				<a href="#give" class="ui-btn-right">Cancel</a>
 			</header>
 			<ul data-role="listview" data-icon="false">
 				<li><a href="#give">
@@ -201,9 +211,72 @@
 				</nav>
 			</footer>
 		</section>
-		<section data-role="page">
+		<section data-role="page" id="get-detail" data-title="Information Retrieval in Practice">
+			<header data-role="header" data-position="fixed">
+				<a href="#get" class="ui-btn-left ui-alt-icon" data-icon="carat-l">Get</a>
+				<a class="ui-btn-right">Remove</a>
+				<span class="ui-title"/>
+			</header>
+			<ul data-role="listview" data-icon="false">
+				<p>You Get</p>
+				<li>
+					<h2>Information Retrieval in Practice</h2>
+					<p>by Bruce Croft, Don Metzlet, and Trevor Strohe</p>
+					<p>ISBN 978-3869104567</p>
+				</li>
+				<p>If You Give</p>
+				<li>
+					<h2>Cognitive Science: An Introduction to the Study of the Mind</h2>
+					<p>by Jay Friedenberg and David Silverman</p>
+					<p>ISBN 978-1593275846</p>
+				</li>
+			</ul>
+			<footer data-role="footer" data-position="fixed" style="overflow:hidden;">
+				<nav data-role="navbar" data-iconpos="top">
+					<ul>
+						<li><a href="#matches" data-icon="img/matches.svg">Matches</a></li>
+						<li><a href="#get" data-icon="img/get.svg" class="ui-btn-active ui-state-persist">Get</a></li>
+						<li><a href="#give" data-icon="img/give.svg">Give</a></li>
+						<li><a href="#settings" data-icon="img/settings.svg">Settings</a></li>
+					</ul>
+				</nav>
+			</footer>
 		</section>
-		<section data-role="page">
+		<section data-role="page" id="give-detail" data-title="Cognitive Science: An Introduction to the Study of the Mind">
+			<header data-role="header" data-position="fixed">
+				<a href="#give" class="ui-btn-left ui-alt-icon" data-icon="carat-l">Give</a>
+				<a class="ui-btn-right">Remove</a>
+				<span class="ui-title"/>
+			</header>
+			<ul data-role="listview" data-icon="false">
+				<p>If You Give</p>
+				<li>
+					<h2>Cognitive Science: An Introduction to the Study of the Mind</h2>
+					<p>by Jay Friedenberg and David Silverman</p>
+					<p>ISBN 978-1593275846</p>
+				</li>
+				<p>You Get</p>
+				<li>
+					<h2>Murach's PHP and MySQL Second Edition</h2>
+					<p>by Joel Murach and Ray Harris</p>
+					<p>ISBN 978-9164793427</p>
+				</li>
+				<li>
+					<h2>Information Retrieval in Practice</h2>
+					<p>by Bruce Croft, Don Metzlet, and Trevor Strohe</p>
+					<p>ISBN 978-3869104567</p>
+				</li>
+			</ul>
+			<footer data-role="footer" data-position="fixed" style="overflow:hidden;">
+				<nav data-role="navbar" data-iconpos="top">
+					<ul>
+						<li><a href="#matches" data-icon="img/matches.svg">Matches</a></li>
+						<li><a href="#get" data-icon="img/get.svg">Get</a></li>
+						<li><a href="#give" data-icon="img/give.svg" class="ui-btn-active ui-state-persist">Give</a></li>
+						<li><a href="#settings" data-icon="img/settings.svg">Settings</a></li>
+					</ul>
+				</nav>
+			</footer>
 		</section>
 	</body>
 </html>
