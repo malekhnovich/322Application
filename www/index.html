@@ -1,21 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="ui-mobile-rendering">
 	<head>
-		<meta charset="UTF-8">
+		<title></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
 		<link rel="stylesheet" href="css/themes/books.min.css"/>
 		<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css"/>
-		<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-		<script>
-			$(document).bind("mobileinit", function(){
-				$.mobile.defaultPageTransition = 'none';
-			});
-    	</script>
-		<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-	</head>
-	<body>
-		<section data-role="page" id="matches">
+
+		<!-- The Templates -->
+		<script type="text/template" id="matches">
 			<header data-role="header" data-position="fixed">
 				<h1>Matches</h1>
 				<a class="ui-btn-right">Sort</a>
@@ -49,15 +42,15 @@
 			<footer data-role="footer" data-position="fixed" style="overflow:hidden;">
 				<nav data-role="navbar" data-iconpos="top">
 					<ul>
-						<li><a href="#matches" data-icon="img/matches.svg" class="ui-btn-active ui-state-persist">Matches</a></li>
+						<li><a href="#" data-icon="img/matches.svg" class="ui-btn-active ui-state-persist">Matches</a></li>
 						<li><a href="#get" data-icon="img/get.svg">Get</a></li>
 						<li><a href="#give" data-icon="img/give.svg">Give</a></li>
 						<li><a href="#settings" data-icon="img/settings.svg">Settings</a></li>
 					</ul>
 				</nav>
 			</footer>
-		</section>
-		<section data-role="page" id="get">
+		</script>
+		<script type="text/template" id="get">
 			<header data-role="header" data-position="fixed">
 				<h1>Get</h1>
 				<a href="#get-add" class="ui-btn-right">Add</a>
@@ -85,15 +78,15 @@
 			<footer data-role="footer" data-position="fixed" style="overflow:hidden;">
 				<nav data-role="navbar" data-iconpos="top">
 					<ul>
-						<li><a href="#matches" data-icon="img/matches.svg">Matches</a></li>
+						<li><a href="#" data-icon="img/matches.svg">Matches</a></li>
 						<li><a href="#get" data-icon="img/get.svg" class="ui-btn-active ui-state-persist">Get</a></li>
 						<li><a href="#give" data-icon="img/give.svg">Give</a></li>
 						<li><a href="#settings" data-icon="img/settings.svg">Settings</a></li>
 					</ul>
 				</nav>
 			</footer>
-		</section>
-		<section data-role="page" id="give">
+		</script>
+		<script type="text/template" id="give">
 			<header data-role="header" data-position="fixed">
 				<h1>Give</h1>
 				<a href="#give-add" class="ui-btn-right">Add</a>
@@ -121,15 +114,15 @@
 			<footer data-role="footer" data-position="fixed" style="overflow:hidden;">
 				<nav data-role="navbar" data-iconpos="top">
 					<ul>
-						<li><a href="#matches" data-icon="img/matches.svg">Matches</a></li>
+						<li><a href="#" data-icon="img/matches.svg">Matches</a></li>
 						<li><a href="#get" data-icon="img/get.svg">Get</a></li>
 						<li><a href="#give" data-icon="img/give.svg" class="ui-btn-active ui-state-persist">Give</a></li>
 						<li><a href="#settings" data-icon="img/settings.svg">Settings</a></li>
 					</ul>
 				</nav>
 			</footer>
-		</section>
-		<section data-role="page" id="settings">
+		</script>
+		<script type="text/template" id="settings">
 			<header data-role="header" data-position="fixed">
 				<h1>Settings</h1>
 			</header>
@@ -157,15 +150,15 @@
 			<footer data-role="footer" data-position="fixed" style="overflow:hidden;">
 				<nav data-role="navbar" data-iconpos="top">
 					<ul>
-						<li><a href="#matches" data-icon="img/matches.svg">Matches</a></li>
+						<li><a href="#" data-icon="img/matches.svg">Matches</a></li>
 						<li><a href="#get" data-icon="img/get.svg">Get</a></li>
 						<li><a href="#give" data-icon="img/give.svg">Give</a></li>
 						<li><a href="#settings" data-icon="img/settings.svg" class="ui-btn-active ui-state-persist">Settings</a></li>
 					</ul>
 				</nav>
 			</footer>
-		</section>
-		<section data-role="page" id="get-add">
+		</script>
+		<script type="text/template" id="get-add">
 			<header data-role="header" data-position="fixed">
 				<input type="search" name="search" id="search-basic" value="essential mob">
 				<a href="#get" class="ui-btn-right">Cancel</a>
@@ -180,15 +173,15 @@
 			<footer data-role="footer" data-position="fixed" style="overflow:hidden;">
 				<nav data-role="navbar" data-iconpos="top">
 					<ul>
-						<li><a href="#matches" data-icon="img/matches.svg">Matches</a></li>
+						<li><a href="#" data-icon="img/matches.svg">Matches</a></li>
 						<li><a href="#get" data-icon="img/get.svg" class="ui-btn-active ui-state-persist">Get</a></li>
 						<li><a href="#give" data-icon="img/give.svg">Give</a></li>
 						<li><a href="#settings" data-icon="img/settings.svg">Settings</a></li>
 					</ul>
 				</nav>
 			</footer>
-		</section>
-		<section data-role="page" id="give-add">
+		</script>
+		<script type="text/template" id="give-add">
 			<header data-role="header" data-position="fixed">
 				<input type="search" name="search" id="search-basic" value="user experience res">
 				<a href="#give" class="ui-btn-right">Cancel</a>
@@ -203,15 +196,15 @@
 			<footer data-role="footer" data-position="fixed" style="overflow:hidden;">
 				<nav data-role="navbar" data-iconpos="top">
 					<ul>
-						<li><a href="#matches" data-icon="img/matches.svg">Matches</a></li>
+						<li><a href="#" data-icon="img/matches.svg">Matches</a></li>
 						<li><a href="#get" data-icon="img/get.svg">Get</a></li>
 						<li><a href="#give" data-icon="img/give.svg" class="ui-btn-active ui-state-persist">Give</a></li>
 						<li><a href="#settings" data-icon="img/settings.svg">Settings</a></li>
 					</ul>
 				</nav>
 			</footer>
-		</section>
-		<section data-role="page" id="get-detail" data-title="Information Retrieval in Practice">
+		</script>
+		<script type="text/template" id="get-detail" data-title="Information Retrieval in Practice">
 			<header data-role="header" data-position="fixed">
 				<a href="#get" class="ui-btn-left ui-alt-icon" data-icon="carat-l">Get</a>
 				<a class="ui-btn-right">Remove</a>
@@ -234,15 +227,15 @@
 			<footer data-role="footer" data-position="fixed" style="overflow:hidden;">
 				<nav data-role="navbar" data-iconpos="top">
 					<ul>
-						<li><a href="#matches" data-icon="img/matches.svg">Matches</a></li>
+						<li><a href="#" data-icon="img/matches.svg">Matches</a></li>
 						<li><a href="#get" data-icon="img/get.svg" class="ui-btn-active ui-state-persist">Get</a></li>
 						<li><a href="#give" data-icon="img/give.svg">Give</a></li>
 						<li><a href="#settings" data-icon="img/settings.svg">Settings</a></li>
 					</ul>
 				</nav>
 			</footer>
-		</section>
-		<section data-role="page" id="give-detail" data-title="Cognitive Science: An Introduction to the Study of the Mind">
+		</script>
+		<script type="text/template" id="give-detail" data-title="Cognitive Science: An Introduction to the Study of the Mind">
 			<header data-role="header" data-position="fixed">
 				<a href="#give" class="ui-btn-left ui-alt-icon" data-icon="carat-l">Give</a>
 				<a class="ui-btn-right">Remove</a>
@@ -270,13 +263,23 @@
 			<footer data-role="footer" data-position="fixed" style="overflow:hidden;">
 				<nav data-role="navbar" data-iconpos="top">
 					<ul>
-						<li><a href="#matches" data-icon="img/matches.svg">Matches</a></li>
+						<li><a href="#" data-icon="img/matches.svg">Matches</a></li>
 						<li><a href="#get" data-icon="img/get.svg">Get</a></li>
 						<li><a href="#give" data-icon="img/give.svg" class="ui-btn-active ui-state-persist">Give</a></li>
 						<li><a href="#settings" data-icon="img/settings.svg">Settings</a></li>
 					</ul>
 				</nav>
 			</footer>
-		</section>
+		</script>
+
+		<!-- The Scripts -->
+		<script src="lib/jquery-2.2.2.min.js"></script>
+		<script src="js/jqm-config.js"></script>
+		<script src="lib/jquery.mobile-1.4.5.min.js"></script>
+		<script src="lib/underscore-min.js"></script>
+		<script src="lib/backbone-min.js"></script>
+		<script src="js/main.js"></script>
+	</head>
+	<body>
 	</body>
 </html>
